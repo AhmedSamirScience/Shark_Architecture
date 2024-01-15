@@ -1,4 +1,6 @@
-https://www.youtube.com/watch?v=bgpyuuzMlo0
+[Shrink, Optimize and Secure Your App With R8 & ProGuard - Full Guide **Philipp Lackner**](https://www.youtube.com/watch?v=bgpyuuzMlo0)
+
+
 
 
 
