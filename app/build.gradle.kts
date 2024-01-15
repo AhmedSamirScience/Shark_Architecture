@@ -25,11 +25,27 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+
+            /**
+             * this is actually what will manage most of the staff with r8
+             *  so if we set isMinifyEnabled with true then it will on the hand optimise your code.
+             *  therefore it will remove unused if statements, unused try catch and all that staff it will will optimise your code
+             *  also it will remove all unused classes, all unused function from your libraries (dependencies) and it will also obfuscate your code
+             *  after all of these then it will rename all of your classes function for your release build and all of that will make your app a lot smaller in size
+             *  so you should always set isMinifyEnabled to true
+             */
+            isMinifyEnabled = true
+
+            /**
+             * here is it will remove unused resources
+             */
+            isShrinkResources = true
+
+            /**
+             * here it just defines some file path to a proguard rules.profile
+             */
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+
         }
     }
     compileOptions {
