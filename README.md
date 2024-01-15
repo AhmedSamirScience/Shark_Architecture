@@ -1,4 +1,4 @@
-***
+
 ## ➠ References on Gradle
 [Shrink, Optimize and Secure Your App With R8 & ProGuard - Full Guide **Philipp Lackner**](https://www.youtube.com/watch?v=bgpyuuzMlo0)
 
@@ -6,7 +6,7 @@
 
 [How to Build a Custom Gradle Plugin to Share Project Config - Multi-Module Architecture **Philipp Lackner**](https://www.youtube.com/watch?v=kFWmL5opJNk&t=349s)
 
-
+***
 
 
 
