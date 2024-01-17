@@ -1,5 +1,6 @@
 
 ## ➠ References on Gradle
+
 **(Philipp Lackner)** [Shrink, Optimize and Secure Your App With R8 & ProGuard - Full Guide](https://www.youtube.com/watch?v=bgpyuuzMlo0)
 
 **(Philipp Lackner)** [Dependency Management in a Multi-Module Project - THIS Is How You Need to Do It](https://www.youtube.com/watch?v=Z97sl7MrrzE&t=632s)
