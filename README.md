@@ -7,9 +7,11 @@
 
 **(Philipp Lackner)** [How to Build a Custom Gradle Plugin to Share Project Config - Multi-Module Architecture](https://www.youtube.com/watch?v=kFWmL5opJNk&t=349s)
 
-**(Azmi Radi-playlist)** [Gradle for Android Developers](https://www.youtube.com/watch?v=ow3kRfApwRQ&list=PL7KKZAJb7iZCCYZtRzNk6RUtmOp_oDGYn)
+ **(Azmi Radi-playlist)** [Gradle for Android Developers](https://www.youtube.com/watch?v=ow3kRfApwRQ&list=PL7KKZAJb7iZCCYZtRzNk6RUtmOp_oDGYn)
 
 ***
+ 
+**(Azmi Radi-ahmed)** [Gradle for Android Developers](https://www.youtube.com/watch?v=ow3kRfApwRQ&list=PL7KKZAJb7iZCCYZtRzNk6RUtmOp_oDGYn)
 
-
-
+***
+ 
