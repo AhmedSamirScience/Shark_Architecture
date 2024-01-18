@@ -21,10 +21,11 @@ android {
         versionCode = ProjectConfiguration.versionCode
         versionName = ProjectConfiguration.versionName
         testInstrumentationRunner = ProjectConfiguration.testInstrumentationRunner
+
     }
 
     buildTypes {
-        release {
+        getByName("release") {
 
             /**
              * this is actually what will manage most of the staff with r8
@@ -46,8 +47,35 @@ android {
              */
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
 
+            /*
+              * i chose debug to make it faster and uncomment this when you generate an apk prod
+             */
+            //signingConfig = signingConfigs.getByName("debug")
+            buildConfigField("String", "BASE_URL",  project.extra["baseUrLProd"].toString())
+
         }
+        getByName("debug") {
+            applicationIdSuffix = ".debug"
+            buildConfigField("String", "BASE_URL",  project.extra["baseUrLTest"].toString())
+        }
+
+
     }
+    signingConfigs {
+        create("release") {
+            storeFile = file("C:/Users/ahmed_samir/Downloads/ahmed.jks")
+            storePassword = "123456"
+            keyAlias = "key0"
+            keyPassword = "123456"
+        }
+
+    }
+    buildFeatures {
+        //this because
+        //Fixing the "Build Type contains custom BuildConfig fields, but the feature is disabled" error w/ buildConfigField
+        buildConfig = true
+    }
+
     compileOptions {
         //compileOptions {} Block -> This specifies options related to compiling your Java code.
         sourceCompatibility = JavaVersion.VERSION_17 //sourceCompatiblity -> specifies the Java version that your code uses.
@@ -73,11 +101,12 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+
+
 }
 
 dependencies {
 
     defaultLibraries()
-
 
 }
