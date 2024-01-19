@@ -15,6 +15,25 @@
 
 ***
 
-<p href="url"  align="center" ><img src="https://nvie.com/img/git-model@2x.png" height="900" width="790" ></p>
+## ➠ LinkedLinPost
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Shark_Architecture/release_branch/concept/linkedIn_Post.png" height="400" width="450" ></p>
 
- 
+***
+
+## ➠ Software Version Number Concept
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Shark_Architecture/release_branch/concept/software_versioning_numberconcept.png" height="390" width="450" ></p>
+
+***
+
+## ➠ Stage Concept
+<p  href="url" align="center"  >
+  <img src="https://raw.githubusercontent.com/AhmedSamirScience/Shark_Architecture/release_branch/concept/example_on_staging.png"             height="300" width="400"  />
+ <img src="https://raw.githubusercontent.com/AhmedSamirScience/Shark_Architecture/release_branch/concept/staging.png"              height="300" width="400" /> 
+</p>
+
+***
+
+## ➠ Code Example
+<p href="url"  align="center" ><img src="https://raw.githubusercontent.com/AhmedSamirScience/Shark_Architecture/release_branch/concept/example_code.png" height="150" width="450" ></p>
+
+***
