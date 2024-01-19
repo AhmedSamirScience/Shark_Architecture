@@ -14,4 +14,7 @@
 **(Thales - Software Versioning Best Practices)** [Software Versioning Best Practices](https://cpl.thalesgroup.com/software-monetization/software-versioning-basics)
 
 ***
+
+<p href="url"  align="center" ><img src="https://nvie.com/img/git-model@2x.png" height="900" width="790" ></p>
+
  
