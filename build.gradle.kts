@@ -8,4 +8,5 @@ plugins {
     id(ProjectPlugins.androidApp) version ProjectPlugins.androidAppVersionNumber apply false //plugin to build Android app (e.g. default app module)
 
     id(ProjectPlugins.kotlinAndroid) version ProjectPlugins.kotlinAndroidPluginVersionNumber apply false //plugin to enable Kotlin support in your project.
+
 }
