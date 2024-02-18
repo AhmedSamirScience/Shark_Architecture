@@ -1,5 +1,0 @@
-
-## ➠ References on Gradle
-
-**(BuildSrc)**
-***
