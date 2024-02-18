@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Shark_Architecture"
         tools:targetApi="31">
         <activity
+            android:name=".presentation.activity.featureOptions.repeatCall.RepeatCallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.featureOptions.dataBaseRoom.DataBaseRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.featureOptions.apiCall.APICallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.featureOptions.MainFeatureOptionsActivity"
+            android:exported="false" />
+        <activity
             android:name=".presentation.activity.main.MainActivity"
             android:exported="true">
             <intent-filter>
@@ -21,6 +33,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".presentation.activity.mainFeatures.MainFeaturesActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

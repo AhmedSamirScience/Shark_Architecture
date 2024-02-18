@@ -8,7 +8,7 @@ plugins {
 
     id(ProjectPlugins.androidApp) //plugin to build Android app (e.g. default app module) (AGP)
     id(ProjectPlugins.kotlinAndroid) //plugin to enable Kotlin support in your project.
-    id(ProjectPlugins.safeArgsProjectModule) //plugin to enable Kotlin support in your project.
+    id(ProjectPlugins.safeArgsProjectModule)  //plugin to enable Kotlin support in your project.
 
 }
 
@@ -114,6 +114,9 @@ dependencies {
     implementation("androidx.legacy:legacy-support-v4:1.0.0")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.11.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     defaultLibraries()
     navGraph()
 
