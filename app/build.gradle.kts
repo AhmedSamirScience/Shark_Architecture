@@ -1,4 +1,6 @@
 import dependencies.defaultLibraries
+import dependencies.navGraph
+
 plugins {
     //plugins {} Block: Similar to the build.gradle/.kts in the root project, this applies plugins in this module.
     // It doesn't need to explicitly call version() because it has already been specified in the root project.
@@ -6,6 +8,8 @@ plugins {
 
     id(ProjectPlugins.androidApp) //plugin to build Android app (e.g. default app module) (AGP)
     id(ProjectPlugins.kotlinAndroid) //plugin to enable Kotlin support in your project.
+    id(ProjectPlugins.safeArgsProjectModule) //plugin to enable Kotlin support in your project.
+
 }
 
 android {
@@ -107,6 +111,10 @@ android {
 
 dependencies {
 
+    implementation("androidx.legacy:legacy-support-v4:1.0.0")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
     defaultLibraries()
+    navGraph()
 
 }
