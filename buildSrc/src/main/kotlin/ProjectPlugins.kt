@@ -16,4 +16,8 @@ object ProjectPlugins {
     const val safeArgsAppModuleVersionNumber = "2.5.3"
     //endregion
 
+    //region plugin to build Android DataBinding with Kotlin here is my reference -> https://medium.com/@dhananjay_yaa/android-databinding-with-kotlin-2e636eaceeff or https://medium.com/@chetanvaghela457/android-kotlin-databinding-with-bindingadapter-recyclerview-binding-99c84aa7af68
+    const val kotlinKaptForDataBinding = "kotlin-kapt"
+    //endregion
+
 }
