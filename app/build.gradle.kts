@@ -1,4 +1,5 @@
 import dependencies.defaultLibraries
+
 plugins {
     //plugins {} Block: Similar to the build.gradle/.kts in the root project, this applies plugins in this module.
     // It doesn't need to explicitly call version() because it has already been specified in the root project.
@@ -108,5 +109,6 @@ android {
 dependencies {
 
     defaultLibraries()
+   // navGraph()
 
 }
