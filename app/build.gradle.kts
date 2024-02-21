@@ -1,4 +1,5 @@
 import dependencies.defaultLibraries
+import dependencies.navGraph
 
 plugins {
     //plugins {} Block: Similar to the build.gradle/.kts in the root project, this applies plugins in this module.
@@ -7,6 +8,8 @@ plugins {
 
     id(ProjectPlugins.androidApp) //plugin to build Android app (e.g. default app module) (AGP)
     id(ProjectPlugins.kotlinAndroid) //plugin to enable Kotlin support in your project.
+    id(ProjectPlugins.safeArgsProjectModule)  //plugin to enable Kotlin support in your project.
+
 }
 
 android {
@@ -109,6 +112,7 @@ android {
 dependencies {
 
     defaultLibraries()
-   // navGraph()
+
+    navGraph()
 
 }

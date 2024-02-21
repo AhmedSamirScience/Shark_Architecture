@@ -9,4 +9,7 @@ plugins {
 
     id(ProjectPlugins.kotlinAndroid) version ProjectPlugins.kotlinAndroidPluginVersionNumber apply false //plugin to enable Kotlin support in your project.
 
+    id(ProjectPlugins.safeArgsAppModule) version ProjectPlugins.safeArgsAppModuleVersionNumber apply false //plugin to enable safeArgs in your project.
+
+
 }

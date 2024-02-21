@@ -1,8 +1,10 @@
-package com.ascoding.shark_architecture
+package com.ascoding.shark_architecture.presentation.activity.main
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.ascoding.shark_architecture.BuildConfig
+import com.ascoding.shark_architecture.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
