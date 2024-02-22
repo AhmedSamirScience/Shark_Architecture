@@ -11,6 +11,8 @@
 /buildSrc/build/kotlin/*
 /buildSrc/build/libs/*
 /build
+/buildSrc/build/kotlin/*
+/buildSrc/build/libs/*
 /captures
 .externalNativeBuild
 .cxx

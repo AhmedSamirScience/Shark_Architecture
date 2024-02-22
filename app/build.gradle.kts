@@ -10,6 +10,15 @@ plugins {
     id(ProjectPlugins.kotlinAndroid) //plugin to enable Kotlin support in your project.
     id(ProjectPlugins.safeArgsProjectModule)  //plugin to enable Kotlin support in your project.
 
+
+    //region Data Binding - View Binding
+    //this is because of using data binding and view binding
+    //url: https://androidgeek.co/how-to-use-data-binding-in-kotlin-complete-guide-83af78a0bb30
+    //url: http://mobologicplus.com/how-to-use-android-data-binding-in-kotlin/
+    //url: https://medium.com/@chetanvaghela457/android-kotlin-databinding-with-bindingadapter-recyclerview-binding-99c84aa7af68
+    //url: https://medium.com/@dhananjay_yaa/android-databinding-with-kotlin-2e636eaceeff
+    id(ProjectPlugins.kotlinKaptForDataBinding)  //plugin to enable data binding
+    //endregion
 }
 
 android {
@@ -78,6 +87,16 @@ android {
         //this because
         //Fixing the "Build Type contains custom BuildConfig fields, but the feature is disabled" error w/ buildConfigField
         buildConfig = true
+
+        //region Data Binding - View Binding
+        //url: https://androidgeek.co/how-to-use-data-binding-in-kotlin-complete-guide-83af78a0bb30
+        //url: http://mobologicplus.com/how-to-use-android-data-binding-in-kotlin/
+        //url: https://medium.com/@chetanvaghela457/android-kotlin-databinding-with-bindingadapter-recyclerview-binding-99c84aa7af68
+        //url: https://medium.com/@dhananjay_yaa/android-databinding-with-kotlin-2e636eaceeff
+        //this is because of using data binding and view binding
+        dataBinding = true
+        viewBinding = true
+        //endregion
     }
 
     compileOptions {
