@@ -5,8 +5,8 @@
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
-/buildSrc/build/kotlin
-/buildSrc/build/libs
+/buildSrc/build/kotlin/*
+/buildSrc/build/libs/*
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
 .DS_Store
