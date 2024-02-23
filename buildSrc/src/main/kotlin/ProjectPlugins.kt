@@ -5,6 +5,7 @@ object ProjectPlugins {
     const val androidAppVersionNumber = "8.2.0"
     //endregion
 
+
     //region plugin to enable Kotlin support in your project.
     const val kotlinAndroid = "org.jetbrains.kotlin.android"
     const val kotlinAndroidPluginVersionNumber = "1.8.22"
